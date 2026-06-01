@@ -1,0 +1,120 @@
+body{
+     background-color: bisque;
+    background-size: cover;
+    background-position: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 10;
+    padding: 10;
+}
+.contenedor-flex {
+    width: 1000px;
+    background-color: rgb(110, 32, 32);
+    margin: 88px auto;
+    padding: 20px;
+    text-emphasis: center;
+    border-radius: 10px;
+    display: flex;
+  align-items: center;
+   
+    
+    
+}
+.contenedor-flex img{ 
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    border: 3px solid black;
+    margin-left:  25px;
+    background-position: left;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    
+    
+}
+h1 {
+    color: rgb(24, 23, 26);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+   position: absolute;
+   top: 80px;
+}
+
+h2{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+}
+h3{
+    color: rgb(50, 17, 82);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+h4{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+p{
+    color: rgb(139, 236, 197);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+.contenedor2{
+    width: 1000px;
+    background-color: rgb(9, 38, 65);
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    video{
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+}
+a{
+    text-decoration: none;
+    color: #0b3d26;
+    font-weight: bold;
+}
+.contenedor3{
+    width: 900px;
+    background-color: rgb(212, 69, 33);
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contenedor3 button:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    color: rgb(175, 207, 235);
+
+}
+.texto-derecha {
+  text-align: right;
+}
+.menú{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+
+}
+.menú button{
+    background-color: #bb1515;
+    color: rgb(241, 231, 231);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+} 
+.menu button :hover{
+    background-color: #0b3d26;
+}
